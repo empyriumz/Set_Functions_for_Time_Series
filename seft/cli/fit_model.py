@@ -14,12 +14,12 @@ from seft.training_routine import TrainingLoop
 from seft.tasks import DATASET_TO_TASK_MAPPING
 from seft.training_utils import LogRealInterval
 
-from .cli_utils import (
+from seft.cli.cli_utils import (
     parse_commandline_arguments,
     get_reproducable_commandline,
     save_args_to_json
 )
-from .hyperparameters import get_hyperparameter_settings
+from seft.cli.hyperparameters import get_hyperparameter_settings
 
 logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)

@@ -7,7 +7,7 @@ import sys
 import medical_ts_datasets
 import seft.models
 
-from .hyperparameters import training_hyperparameters, UndefinedHyperparameter
+from seft.cli.hyperparameters import training_hyperparameters, UndefinedHyperparameter
 
 
 def generate_random_seed():

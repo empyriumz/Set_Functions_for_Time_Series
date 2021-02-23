@@ -6,7 +6,7 @@ Che et al., 2016
 from collections.abc import Sequence
 import tensorflow as tf
 
-from .delta_t_utils import get_delta_t
+from seft.models.delta_t_utils import get_delta_t
 
 
 class GRUSimpleModel(tf.keras.Model):

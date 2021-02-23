@@ -1,6 +1,5 @@
 import inspect
 from itertools import chain
-import numpy as np
 import tensorflow as tf
 from tensorflow.keras.layers import Dense, Dropout
 

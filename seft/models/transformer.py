@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 import keras_transformer
 
-from .set_utils import PaddedToSegments, SegmentAggregation
+from seft.models.set_utils import PaddedToSegments, SegmentAggregation
 
 
 class PositionalEncoding(tf.keras.layers.Layer):

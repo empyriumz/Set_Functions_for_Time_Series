@@ -6,10 +6,10 @@ import tensorflow as tf
 from tensorflow.keras.layers import Dense
 from tensorflow.python.framework.smart_cond import smart_cond
 
-from .set_utils import (
+from seft.models.set_utils import (
     build_dense_dropout_model, PaddedToSegments, SegmentAggregation,
     cumulative_softmax_weighting, cumulative_segment_mean)
-from .utils import segment_softmax
+from seft.models.utils import segment_softmax
 
 
 class PositionalEncoding(tf.keras.layers.Layer):

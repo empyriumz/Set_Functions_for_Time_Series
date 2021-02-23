@@ -14,7 +14,7 @@ import tensorflow as tf
 from tensorflow.keras.layers import Dense
 from tensorflow.nn.rnn_cell import LSTMStateTuple
 
-from .delta_t_utils import get_delta_t
+from seft.models.delta_t_utils import get_delta_t
 
 
 PhasedLSTMInput = namedtuple('PhasedLSTMInput', ['times', 'x'])

@@ -9,10 +9,10 @@ from typing import Callable
 from tensorflow.keras.callbacks import (
     CSVLogger, EarlyStopping, ModelCheckpoint, ReduceLROnPlateau, TensorBoard)
 
-from .callbacks import (
+from seft.callbacks import (
     EvaluationCallback, HParamsCallback, TimeHistory, WarmUpScheduler)
-from .normalization import Normalizer
-from .training_utils import (
+from seft.normalization import Normalizer
+from seft.training_utils import (
     build_training_iterator,
     build_validation_iterator,
     build_test_iterator,
